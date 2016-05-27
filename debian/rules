@@ -34,7 +34,7 @@ LDFLAGS += $(HARDENING_LDFLAGS)
 
 
 DEB_CONFIGURE_EXTRA_FLAGS := \
-        --with-init-style=debian-systemd \
+        --with-init-style=debian-sysv \
         --without-libevent \
         --without-tdb \
         --with-cracklib \
@@ -44,7 +44,7 @@ DEB_CONFIGURE_EXTRA_FLAGS := \
         --with-dbus-sysconf-dir=/etc/dbus-1/system.d \
 	--sysconfdir=/etc/netatalk \
 	--localstatedir=/var/lib \
-        --with-tracker-pkgconfig-version=1.0
+        --with-tracker-pkgconfig-version=0.16
 
 CDBS_DEPENDS = netbase, libpam-modules
 CDBS_SUGGESTS = texlive-base-bin, groff, quota, db4.8-util

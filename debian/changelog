@@ -1,7 +1,6 @@
-netatalk (3.1.8-0ppa3~wily) wily; urgency=low
+netatalk (3.1.8-0ubuntu1ppa1~trusty) trusty; urgency=low
 
   * New upstream release
-  * Rebuilt for Ubuntu 15.10 (wily)
 
  -- Gerco Dries <gerco@gdries.nl>  Tue, 02 Feb 2016 22:06:00 -0500
 

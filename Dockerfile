@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu:trusty
 
 MAINTAINER Gerco Dries <gerco@gdries.nl>
 
