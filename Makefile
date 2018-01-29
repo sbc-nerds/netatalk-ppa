@@ -6,7 +6,7 @@ container:
 
 local: container
 	docker run -ti -v ~/.gnupg:/root/.gnupg:ro --name netatalk-build netatalk-build debuild -us -uc
-	docker cp netatalk-build:/src/netatalk_3.1.8-0ubuntu1ppa1~trusty_*.deb .
+	docker cp netatalk-build:/src/netatalk_3.1.8-0ubuntu1ppa1~trusty.deb .
 	docker rm netatalk-build
 
 dist: container

@@ -1,6 +1,6 @@
-FROM ubuntu:trusty
+FROM ubuntu:14.04
 
-MAINTAINER Gerco Dries <gerco@gdries.nl>
+MAINTAINER Oleksii Schastlyvyi <lucky.alvy@gmail.com>
 
 RUN apt-get update
 

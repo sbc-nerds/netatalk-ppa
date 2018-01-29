@@ -1,7 +1,7 @@
 Source: netatalk
 Section: net
 Priority: extra
-Maintainer: Gerco Dries <gerco@gdries.nl>
+Maintainer: Oleksii Schastlyvyi <lucky.alvy@gmail.com>
 Build-Depends: debhelper (>=8.0.0), autotools-dev, libdb-dev (>=4.8), libcrack2-dev, libpcre3, pkg-config, libgcrypt11-dev(>=1.2.3), libavahi-common-dev(>=0.6), libavahi-client-dev(>=0.6), hardening-includes, cdbs, libevent-dev (>=2.0), libldap2-dev, libpam0g-dev, libacl1-dev, libtracker-sparql-0.16-dev, libtracker-miner-0.16-dev, libkrb5-dev, libtdb-dev, libacl1-dev, systemtap-sdt-dev, libdbus-1-dev, libdbus-glib-1-dev, libglib2.0-dev, tracker
 Standards-Version: 3.9.6
 Homepage: http://netatalk.sourceforge.net/
