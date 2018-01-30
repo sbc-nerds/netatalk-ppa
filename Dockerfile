@@ -1,6 +1,6 @@
-FROM ubuntu:15.10
+FROM ubuntu:16.04
 
-MAINTAINER Gerco Dries <gerco@gdries.nl>
+MAINTAINER Oleksii Sobolevskyi <alex@nerten.info>
 
 RUN apt-get update
 

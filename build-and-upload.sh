@@ -1,5 +1,5 @@
 #!/bin/bash
 
 debuild -S
-dput ppa:gercod/netatalk ../*.changes
+dput ppa:sbc-nerds/test-ppa-2 ../*.changes
 

@@ -7,7 +7,7 @@
 #
 
 # Change to 0 to disable daemon
-ENABLE_DAEMON=0
+ENABLE_DAEMON=1
 CONFIG_FILE="/etc/netatalk/afp.conf"
 
 # Default options for daemon
